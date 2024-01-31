@@ -1,0 +1,294 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Times New Roman', Times, serif
+}
+
+.header{
+   gap: 100px;
+   justify-content:center;
+   position: absolute;
+   display: flex;
+   width: 100%;
+   height: 600px;
+
+}
+.head{
+   background-color: pink;
+   width: 100%;
+   height: 600px;
+
+}
+.s_logo{
+   position: relative;
+   width: 40px;
+
+}
+.directional{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+
+}
+.hire_me{
+   font-size: small;
+   position: relative;
+   width: 100px;
+   height: 40px;
+   background-color: white;
+
+}
+.img_cr7{
+   position: relative;
+   width: 400px;
+   height: 550px;
+
+}
+.infor{
+   margin-left: 100px;
+   justify-content: center;
+   position: absolute;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: row;
+   gap: 400px;
+
+
+}
+.name{
+   top: 200px;
+   position: relative;
+   text-align: center;
+   right: 100px;
+
+}
+.download{
+   position: absolute;
+   margin-top: 30px;
+   border: none;
+   position: relative;
+   height: 80px;
+   width: 200px;
+   background-color: rgb(69, 69, 250);
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+a:hover{
+   color: aliceblue;
+}
+.seldom{
+   position: relative;
+   margin-bottom: 10px;
+
+}
+.introduction{
+   margin-top:50px ;
+   margin-left: 100px;
+   display: flex;
+   height: 200px;
+   gap: 300px;
+}
+.personal_details{
+   gap: 30px;
+   margin-left: 100px;
+   border:none;
+   height: 60px;
+   width: 200px;
+   text-align: center;
+}
+.infor_2{
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.img_icon{
+   position: relative;
+   height: 45px;
+}
+.icon{
+   margin-top: 10px;
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
+.menu_icon{
+   font-size: small;
+   display: flex;
+   flex-direction:row;
+}
+.change_menu1{
+   justify-content: center;
+   display: flex;
+   flex-direction:row;
+   gap: 100px;
+}
+.change_menu2{
+   margin-right: 40px;
+   justify-content: center;
+   display: flex;
+   flex-direction:row;
+   gap: 200px;
+}
+.work{
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   text-align: center;
+}
+.oj{
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+   text-align: center;
+}
+.menu2_1{
+   margin-right: 40px;
+   margin-top: 50px;
+   display: flex;
+   position: relative;
+   flex-direction: row;
+   justify-content: center;
+   gap: 150px;
+}
+.menu2_2{
+   margin-left: 100px;
+   margin-top: 30px;
+   display: flex;
+   position: relative;
+   flex-direction: row;
+   gap: 180px;
+}
+.get_touch{
+   justify-content: center;
+   margin-top: 50px;
+   position: relative;
+   height: 800px;
+}
+.right_gt{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.infor_3{
+   position: relative;
+   margin-left: 100px;
+}
+.left_gt{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.all_gt{
+   margin-bottom: 100px;
+   gap: 50px;
+   display: flex;
+   flex-direction: row;
+}
+.mess{
+   position: relative;
+}
+.header_gt{
+   display: flex;
+   flex-direction: row;
+   gap: 200px;
+}
+.submit{
+   position: relative;
+   margin-top: 20px;
+}
+
+.foot{
+   margin-top: 160px;
+   background-color: rgb(40, 36, 108);
+   }
+   .foot-sel{
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+   width: 392px;
+   font-size: 14px;
+   }
+   .foot-sel img{
+       height: 20px;
+   }
+   .foot-sel p{
+       color: rgb(155, 147, 147);
+   }
+   .sel b{
+       color: rgb(211, 218, 225);
+   }
+   .sel{
+       display: flex;
+       flex-direction: row;
+       gap:5px;
+   }
+   .foot-icon{
+       color: rgb(174, 160, 160);
+       font-size: large;
+   }
+   .bot-foo{
+   display: flex;
+   flex-direction: row;
+   gap:70px;
+   }
+   .bot-foo b{
+       color: rgb(218, 231, 231);
+   }
+   .bot-foo p{
+       color: rgb(165, 162, 162);
+   }
+   .list-co{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+   }
+   .dis-foot{
+       display: flex;
+       flex-direction: row;
+       padding-top: 60px;
+       padding-left: 200px;
+       gap:220px;
+   }
+   .hr3{
+       margin-top: 30px;
+       color: grey;
+   }
+   .last p:first-child{
+       color: rgb(182, 182, 182);
+   }
+   .last p:last-child{
+       color: rgb(48, 99, 170);
+   }
+   .last{
+   display: flex;
+   flex-direction: row;
+   margin-left: 200px;
+   gap:400px;
+   margin-top: 20px;
+   }
+   .dot{
+       background-color: red;
+       width: 8px;
+       height: 8px;
+       border-radius: 50%;
+   }
+   .dot_setting{
+       display: flex;
+       flex-direction: row;
+   }
